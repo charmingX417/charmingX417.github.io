@@ -276,9 +276,9 @@ document.addEventListener('pjax:error', e => {
     console.log('已挂载butterfly_clock')
     parent_div_git.insertAdjacentHTML("afterbegin",item_html)
     }
-  var elist = '/posts/,/about/'.split(',');
+  var elist = 'null'.split(',');
   var cpage = location.pathname;
-  var epage = 'all';
+  var epage = '/';
   var flag = 0;
 
   for (var i=0;i<elist.length;i++){
